@@ -1,0 +1,26 @@
+*{
+    text-align: center; 
+ }
+ h1 {
+     color: aquamarine;
+     font-size: 30px;
+ }
+ h2 {
+     color: gold;
+     background-color: dimgrey;
+     
+ }
+ h3 {
+     color: aqua;
+     font-size: 40px;
+ }
+ p {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ /* Comentario */
+ button {
+     color: coral;
+     background-color: black;
+     border-radius: 10px;
+     padding: 12px;
+ }
