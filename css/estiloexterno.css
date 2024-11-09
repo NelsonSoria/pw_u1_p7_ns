@@ -1,3 +1,4 @@
+/*centrados generales*/
 *{
     text-align: center; 
  }
@@ -23,4 +24,38 @@
      background-color: black;
      border-radius: 10px;
      padding: 12px;
+ }
+ .titulos{
+    color: green;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ #id_pie_pagina {
+    color: chartreuse;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: blue;
+ }
+
+ /* img[src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"] {
+    width: 200px;
+    height: 300px;
+} */
+ img[src *= ".png"] {
+    width: 59px;
+    height: 78px;
+ }
+ input[type="text"] {
+background-color: cornflowerblue;
+ }
+
+.titulos:hover {
+    color: chocolate;
+    background-color: blue;
+ }
+
+ /* Combinacion de selectores*/
+ h1,h3,h5 {
+    color: red;
+    background-color: aquamarine;
  }
