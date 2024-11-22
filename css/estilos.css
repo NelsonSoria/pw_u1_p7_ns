@@ -20,14 +20,33 @@
 .display {
     grid-column: span 4;
     padding: 15px;
-    background-color: rgb(45, 171, 175);
+    background-color: rgb(126, 148, 247);
     border-radius: 15px;
     text-align: right;
-    margin-bottom: 5px;
+    margin-bottom: 9px;
     color: black;
     font-size: 35px;
 }
+
 .colmun-2{
     grid-column: span 2;
+}
+button {
+    cursor: pointer;
+    margin: 6px;
+    padding: 5px;
+    border-radius: 33px;
+    border:none;
+    background-color: rgb(230, 239, 245);
+    font-size: 27px;
+    color: black;
+    box-shadow: 2px 2px 15px 2px rgb(100, 111, 161);
+
+}
+button:hover {
+    background-color: rgb(0,200,0);
+}
+button:active {
+    background: rgb(200, 0, 0);
 }
 
