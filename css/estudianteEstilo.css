@@ -1,0 +1,43 @@
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background: #f3955e;
+}
+p:before{
+    content: attr(type); /* Se hace visibles las nombres que estan el el type */
+    display: block; /* lo dispone en bloques independientes */
+    margin: 3px;
+    font-size: 17px;
+    color: #1c5880;
+
+}
+input{
+    width: 280px;
+    border: none;
+    border-bottom: 5px solid red;
+    background: none;
+}
+input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(192, 146, 146);
+}
+h2 {
+    margin: 10px 2px 2px 4px;
+    width: 180px;
+    color: blue;
+    border-bottom: 3px solid #8abada;
+
+}
+form {
+    width: 300px;
+    height: 400px;
+    background: #e6e6e6;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 5px 5px rgb(3, 3, 3);
+}
