@@ -38,6 +38,21 @@ form {
     border-radius: 10px;
     padding-left: 15px;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     box-shadow: 10px 10px 5px 5px rgb(3, 3, 3);
+}
+button {
+    background: #2ca3f1;
+    border-radius: 10px;
+    width: 90px;
+    height: 35px;
+    color: #f0f0f0;
+    font-size: 17px;
+    cursor: pointer;
+    border: 2px solid  #8abada;
+}
+.copia-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
